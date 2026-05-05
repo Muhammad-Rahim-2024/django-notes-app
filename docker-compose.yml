@@ -1,7 +1,14 @@
-version : "3.3"
+# version : "3.3"
+# services : 
+#   web : 
+#     build :
+#       context : .
+#     ports : 
+#       - "8000:8000"
+
+
 services : 
   web : 
-    build :
-      context : .
+    image : "muhammadrahimharoon/notes-app:latest"
     ports : 
       - "8000:8000"
